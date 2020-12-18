@@ -6,8 +6,8 @@
 #o signo. Use tuplas para esse exercício e um pelo menos duas funções.
 #Levando em consideração que ele é composto por animais com ciclo de 12
 #anos uma maneira simples de identificar é com o ano do nascimento. Os
-#signos são: 1- macaco 2-galo 3-Cão 4-Porco 5-Rato 6-Boi 7- Tigre 8-coelho 9-
-#Dragão 10-Serpente 11-Cavalo 12-Carneiro.
+#signos são: (1- macaco 2-galo 3-Cão 4-Porco 5-Rato 6-Boi 7- Tigre 8-coelho 9-
+#Dragão 10-Serpente 11-Cavalo 12-Carneiro).
 
 signos = ('CARNEIRO','SERPENTE','CÃO','DRAGON','TIGRE','BOI','COELHO','RATO',
 'MACACO','GALO','CAVALO','PORCO')

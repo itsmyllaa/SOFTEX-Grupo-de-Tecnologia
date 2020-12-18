@@ -1,7 +1,7 @@
 ####Lurdes tem um brechó e quer um programa que armazene todas as suas peças com seus respectivos preços, 
 # quantidade da peça e que ela possa excluir e incluir itens depois. Use uma lista ou lista composta para 
 # armazenar o nome do item, o preço e a quantidade. Faça um menu com opções de incluir e excluir os itens 
-# ( que forem vendidos). No final o programa deve mostrar os itens vendidos (excluídos), 
+# (que forem vendidos). No final o programa deve mostrar os itens vendidos (excluídos), 
 # a lista com os itens cadastrados( apenas aqueles que não foram vendidos e o total vendido.
 
 
