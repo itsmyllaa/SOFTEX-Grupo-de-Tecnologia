@@ -1,3 +1,10 @@
+###Questão criada por Nicolas Mathias (adaptada)] Cinco amigos saíram para
+#jantar fora e nessa noite ficou definido que seria feito um sorteio para quem
+#iria pagar a conta. Para isso faça um dicionário com os nomes dos amigos,
+#faça um sorteio dentre esses para ver quem vai pagar a conta. Além disso, seu
+#programa deve pegar o valor da conta que pode ser adiciono os 10% do
+#garçom
+
 import random
 import math
 
