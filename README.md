@@ -1,2 +1,2 @@
-# SOFTEX-grupo-de-tecnologia
+# SOFTEX-Python
 Desenvolvimento de Software Python
