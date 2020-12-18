@@ -5,40 +5,48 @@
 # a lista com os itens cadastrados( apenas aqueles que não foram vendidos e o total vendido.
 
 
-pecas = list()
-vendidos = list()
+parts = list()
+sold = list()
 total = 0
-op = 1
+options = 1
 
-while op != 0:
+while options != 0:
+    print("=============")
     print("MENU DE ITENS")
+    print("=============")
+    print("*************")
     print("0- SAIR")
     print("1- INCLUIR")
     print("2- EXCLUIR")
+    print("*************")
 
-    op = int(input())
+    options = int(input())
 
-    if op == 1:
+    if options == 1:
         a = int(input("QUANTOS VOCÊ QUER INCLUIR? "))
         for i in range(0,a):
-            cadastro = [input("INSIRA O NOME: "),float(input("Inserir Preço: ")),int(input("Inserir Quantidade: "))]
-            pecas.append(cadastro)
+            register = [input("NOME DA PEÇA: "),float(input("PREÇO DA PEÇA: ")),int(input("QUANTIDADE DA PEÇA: "))]
+            parts.append(register)
 
-    elif op == 2:
-        print(pecas)
-        nome = input("Insira Nome: ")
-        for j in range(0,len(pecas)):
-            if nome in pecas[j][0]:
-                vendidos.append(pecas[j])
+    elif options == 2:
+        print(parts)
+        name = input("NOME DA PEÇA QUE DESEJA REMOVER: ")
+        print("*********************************")
+        for j in range(0,len(parts)):
+            if name in parts[j][0]:
+                sold.append(parts[j])
                 total = 1+1
-                pecas[j][2]-=1
+                parts[j][2]-=1
 
 
-print("VENDIDOS")
-for h in range(0,len(vendidos)):
-    print(vendidos[h])
-print("ITENS EM ESTOQUE")
-for h in range(0,len(pecas)):
-    print(pecas[h])
+print("VENDIDOS:")
+print("******************")
+for h in range(0,len(sold)):
+    print(sold[h])
+print("ITENS EM ESTOQUE:")
+print("******************")
+for h in range(0,len(parts)):
+    print(parts[h])
 
 print("TOTAL DE VENDAS: ",total)
+print("******************")

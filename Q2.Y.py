@@ -9,33 +9,35 @@
 #signos são: (1- macaco 2-galo 3-Cão 4-Porco 5-Rato 6-Boi 7- Tigre 8-coelho 9-
 #Dragão 10-Serpente 11-Cavalo 12-Carneiro).
 
-signos = ('CARNEIRO','SERPENTE','CÃO','DRAGON','TIGRE','BOI','COELHO','RATO',
+signs = ('CARNEIRO','SERPENTE','CÃO','DRAGON','TIGRE','BOI','COELHO','RATO',
 'MACACO','GALO','CAVALO','PORCO')
 
 def zodiac():
     print('''
-          **
-            Welcome! VEJA SEU ZODIACO CHINÊS.
-          **
-          1 - SEU ZODIACO CHINÊS
-          ========================
-          2 - SAIR
-          **
+          ======================================
+            Welcome! see your ZODIACO CHINÊS.
+          ======================================
+          **************************************
+          1 - your ZODIACO CHINÊS
+          --------------------------------------
+          2 - EXIT
+          --------------------------------------
+          **************************************
           ''')
 
 while True:
     zodiac()
-    opc = input('Faça uma escolha: ')
+    option = input('Faça uma escolha: ')
     print(' ')
-    if opc == '1':
-        nome = str(input('Informe seu nome: '))
+    if option == '1':
+        name = str(input('Informe seu nome: '))
         print(' ')
-        ano = int(input('Preencha com seu ano de nascimento: '))
+        year = int(input('Preencha com seu ano de nascimento: '))
         print(' ')
-        signos = signos[ano%12]
-        print(f'{nome}, O SEU SIGNO DO ZODIACO CHINÊS É: {signos}.')
+        signs = signs[year%12]
+        print(f'{name}, O SEU SIGNO DO ZODIACO CHINÊS É: {signs}.')
         print(' ')
         break
 
-    elif opc =='2':
+    elif option =='2':
         break
