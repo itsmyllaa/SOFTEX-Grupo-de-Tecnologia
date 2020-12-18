@@ -1,5 +1,0 @@
-dividendo = float(input('Insira o dividendo:'))
-divisor = float(input('Insira o divisor:'))
-resultado = (dividendo/divisor)
-print("O quociente é:")
-print(resultado)
